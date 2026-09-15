@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Coding Skills</title>
+
+  
+  <!-- Robotic/tech font + fancy script font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__name">ALI PHILIP</span>
+        <span class="brand__tag">CODING SKILLS PORTFOLIO</span>
+      </div>
+
+      <nav class="nav">
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#resume">Resume</a>
+        <a class="nav__link" href="#research">Research</a>
+        <a class="nav__link" href="#education">Education</a>
+        <a class="nav__link" href="#passion">Passion Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Page -->
+  <main class="container">
+    <!-- Hero / About Section -->
+    <section class="about" id="about">
+      <div class="about__text">
+        <h1 class="fancy-title">About Me</h1>
+        <p>
+          Hi! I’m <strong>Ali Philip</strong>! I write clean, reliable code and enjoy turning
+          ideas into working code. This site showcases my projects, research interests, and
+          learning journey.
+        </p>
+        <ul class="skills-bullets">
+          <li><span class="dot"></span> Languages: Python, C++, SQL.</li>
+          <li><span class="dot"></span> Frameworks: React, Node, etc. </li>
+          <li><span class="dot"></span> Interests: AI && Machine Learning, Data Science, Research</li>
+
+        </ul>
+
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+      
+
+      <!-- Picture placeholder -->
+      <div class="about__photoWrap">
+        <div class="about__photoBorder">
+          <img
+            class="about__photo"
+            src ="images/about-me-image.jpeg"
+            alt="Your photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Placeholder sections for nav links -->
+    <section class="section" id="projects">
+      <h2> Projects && Research </h2>
+      <p>
+        <h3>
+          CUNY Research Multi Light Band Analysis of Concentration, 
+          Asymmetry & Smoothness (CAS) of E+A Galaxies
+        </h3>
+        <p>
+          This project develops an automated pipeline for analyzing the morphology 
+          of post-starburst (E+A) galaxies using data from the Vera C. Rubin Observatory's 
+          Legacy Survey of Space and Time (LSST). Galaxy morphology provides important 
+          information about how galaxies form and evolve. In particular, disturbed morphologies 
+          can provide evidence of galaxy mergers and interactions. The Concentration, Asymmetry,
+           and Smoothness (CAS) framework, introduced by Conselice (2003), provides a quantitative 
+           method for characterizing these morphological features.
+           <br> <br> the goal of this project is to adapt the CAS framework to the scale of LSST data 
+           and create a computationally efficient workflow capable of processing large galaxy samples 
+           across multiple photometric bands.
+          </p> 
+          <p>
+            <a class="nav__link" href="https://github.com/AliPhilip05/Casper-Analysis-Of-E-Galaxies-">Read More...</a>
+          </p>
+
+        <h3>Patients Management Project</h3>
+        <p>
+          Write an interactive program that will monitor the flow of patients 
+          in a large hospital using a hash function to implement the patient 
+          database for efficient lookup. The program should account for patients 
+          who check in and out of the hospital, storing each patient's information 
+          in a hash table where the patient's name serves as the key. The program 
+          should allow O(1) access to information about any given patient through 
+          this hash-based implementation. In addition, the program must manage the 
+          scheduling of three operating rooms. Doctors make a request that includes 
+          a patient's name (which is hashed to locate their records) and a priority 
+          value between 1 and 10 that reflects the urgency of the operation. Patients 
+          are chosen for the operating room by priority value, and patients with the same 
+          priority are served on a first-come, first-served basis. 
+        </p> 
+          <p>
+            <a class="nav__link" href="https://github.com/AliPhilip05/Patients-Managment">Read More...</a>
+          </p>
+      </p>
+    </section>
+
+    <section class="section" id="resume">
+      <h2>Resume</h2>
+      <p>
+        <a class="nav__link" href="images/Alip Resume September.docx">AliPhilip.Resume</a>
+        <iframe src = "images/Resume.pdf" width = "100%"" height = "500px">
+        </iframe>
+      </p> 
+    </section>
+
+    <section class="section" id="research">
+      <h2>Research</h2>
+      <p>Describe your research interests and work.</p>
+    </section>
+
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <p> 
+        <h3>CUNY College of Staten Island <br>
+          Bachelor of Science in Computer Science/Mathematics - Expected May 2027  </h3>
+        <p>Relevant Coursework: Practical Machine Learning, Computational Linear Algebra, 
+          Introduction to Database Systems Analysis of Algorithms, Mathematical Proofs, 
+          Digital Systems Design, Data Structures, Software Design  </p> 
+          <p>
+            <h4>Read More...</h4>
+          </p>
+        Schools, degrees, relevant coursework.
+      </p>
+    </section>
+
+    <section class="section" id="passion">
+      <h2>Course Work Material</h2>
+      <p> </p>
+    </section>
+  </main>
+
+  <!-- Contact Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div>
+        <h2 class="fancy-title fancy-title--small">Ways to Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact" href="mailto:alip.professional@gmail.com">Email</a>
+        <a class="contact" href="https://github.com/Aliphilip05" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="contact" href="https://linkedin.com/in/aliphilip" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="contact" href="#top">Back to top</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Ali Philip</span>
+    </div>
+  </footer>
+
+  <script>
+    // Keep footer year updated automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
